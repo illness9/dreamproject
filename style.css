@@ -787,13 +787,37 @@ main{
   position:relative;
 }
 
-
-
-
-
+.footer-right{
+  display: none;
+}
 
 
 
 
 }
+@media screen and (max-width: 480px) {
+  .hamburger{
+    display: inline-block;
+    position:fixed;
+    top:0;
+    left:100%;
+    width:70%;
+    height:100vh;
+    background:rgb(115, 121, 126);
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: left 0.5s;
+    border-left: solid;
+    border-color: #000;
+    border-width: thin;
+  
+  }
+  .open .hamburger{
+    left: 30%;
+  }
+  
+}
+
 

@@ -795,8 +795,7 @@ main{
     }
     main{
     background: url("images/Fdau_9CaAAAkOb8.jpg") center ;
-    background-size: cover;
-    background-attachment: fixed;
+    background-attachment: cover;
     background-repeat: no-repeat;
     width:100%;
     height:100vh;

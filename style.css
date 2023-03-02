@@ -788,12 +788,12 @@ main{
 
 }
 @media screen and (max-width: 480px) {  /*スマートフォン用*/
-   .character{
-    color:#fff;
-    background:rgba(105, 105, 105, 0.5);
-    font-size:1.3rem;
-    height:100vh;
-  }
+   .title h2{
+    font-size:2.5rem;
+    display: flex;
+    position:relative;
+    color: #fff;
+    }
     main{
     background: url("images/Fdau_9CaAAAkOb8.jpg") ;
     background-size: cover;

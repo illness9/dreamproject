@@ -789,7 +789,7 @@ main{
 }
 @media screen and (max-width: 480px) {  /*スマートフォン用*/
    .title h2{
-    font-size:2rem;
+    font-size:2.7rem;
     display: flex;
     position:relative;
     color: #fff;

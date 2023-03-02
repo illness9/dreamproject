@@ -68,9 +68,7 @@ span{
 
 main{
   background: url("images/Fdau_9CaAAAkOb8.jpg") center ;
-  background-size:70% auto;
   background-size: contain;
-  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   width:100%;
